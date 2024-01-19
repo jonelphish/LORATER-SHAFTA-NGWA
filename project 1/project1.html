@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <table id="myTable">
+        <tr>
+            <th></th>
+            <th class="basic">Basic</th>
+            <th class="medium">Medium</th>
+            <th class="Advance">Advance</th>
+        </tr>
+        <?php for ($row = 1; $row <= 11; $row++) : ?>
+            <tr>
+                <td> 20 GB Hard Disk Included</td>
+                <td>N/A</td>
+                <td>✔️</td>
+                <td>✔️</td>
+            </tr>
+            <tr>
+                <td>129 TB Bandwidth</td>
+                <td>✔️</td>
+                <td>N/A</td>
+                <td>✔️</td>
+            </tr>
+            <tr>
+                <td>Dedicated Support Panel</td>
+                <td>✔️</td>
+                <td>❌</td>
+                <td>✔️</td>
+            </tr>
+            <tr>
+                <td>Extra plugin Features</td>
+                <td>❌</td>
+                <td>❌</td>
+                <td>✔️</td>
+            </tr>
+            <tr>
+                <td>Email support</td>
+                <td>✔️</td>
+                <td>❌</td>
+                <td>✔️</td>
+            </tr>
+            <tr>
+                <td>Chat Support Option</td>
+                <td>✔️</td>
+                <td>✔️</td>
+                <td>❌</td>
+            </tr>
+            <tr>
+                <td>Dedicated support Panel</td>
+                <td>✔️</td>
+                <td>❌</td>
+                <td>✔️</td>
+            </tr>
+            <tr>
+                <td>Extra Plugin Features</td>
+                <td>❌</td>
+                <td>❌</td>
+                <td>✔️</td>
+            </tr>
+            <tr>
+                <td>E-mail Support</td>
+                <td>✔️</td>
+                <td>❌</td>
+                <td>✔️</td>
+            </tr>
+            <tr>
+                <td>Chat Support Option</td>
+                <td>✔️</td>
+                <td>✔️</td>
+                <td>❌</td>
+            </tr>
+        <?php endfor; ?>
+        <tr>
+            <td >
+                <td><button id="redBtn" class="redBtn">BUY PLAN</button></td>
+                <td><button id="blueBtn" class="blueBtn">BUY PLAN</button></td>
+                <td><button id="greenBtn" class="greenBtn">BUY PLAN</button></td>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
